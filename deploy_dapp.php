@@ -9,3 +9,5 @@ session_start();
 $currentUser = Helper::getCurrentUser();
 
 if (!$currentUser) exit;
+
+$id = $_POST['id'];
