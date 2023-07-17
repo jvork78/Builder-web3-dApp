@@ -7,3 +7,5 @@ require_once('classes/SendGrid.php');
 session_start();
 
 $currentUser = Helper::getCurrentUser();
+
+if (!$currentUser) exit;
