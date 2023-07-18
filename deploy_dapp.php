@@ -13,3 +13,4 @@ if (!$currentUser) exit;
 $id = $_POST['id'];
 $address = empty($_POST['address']) ? '' : $_POST['address'];
 $user = $currentUser->getId();
+$email = $currentUser->getEmail();
