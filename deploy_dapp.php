@@ -18,3 +18,4 @@ $email = $currentUser->getEmail();
 $db = db::getInstance();
 try {
 	$query = $db->prepare('SELECT * FROM `dapps` WHERE `user` = :user AND `id` = :id AND `deployed`=0');
+	$query->bindParam(':user', $user);
