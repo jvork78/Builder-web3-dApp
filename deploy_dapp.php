@@ -21,3 +21,4 @@ try {
 	$query->bindParam(':user', $user);
 	$query->bindParam(':id', $id);
 	$query->execute();
+	$dapp = $query->fetchObject('Dapp');
