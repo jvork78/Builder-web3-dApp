@@ -20,3 +20,4 @@ try {
 	$query = $db->prepare('SELECT * FROM `dapps` WHERE `user` = :user AND `id` = :id AND `deployed`=0');
 	$query->bindParam(':user', $user);
 	$query->bindParam(':id', $id);
+	$query->execute();
