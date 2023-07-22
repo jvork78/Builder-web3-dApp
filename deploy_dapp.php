@@ -22,3 +22,4 @@ try {
 	$query->bindParam(':id', $id);
 	$query->execute();
 	$dapp = $query->fetchObject('Dapp');
+} catch (PDOException $e) {
