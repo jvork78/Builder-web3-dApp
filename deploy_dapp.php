@@ -30,3 +30,5 @@ if (empty($dapp)) exit;
 
 try {
 	$query = $db->prepare('UPDATE `dapps` SET `deployed` = 1, `address`=:address WHERE `user` = :user AND `id` = :id');
+	$query->bindParam(':id', $id);
+	$query->bindParam(':user', $user);
