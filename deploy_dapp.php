@@ -35,3 +35,4 @@ try {
 	$query->bindParam(':id', $id);
 	$query->bindParam(':user', $user);
 	$query->bindParam(':address', $address);
+	$query->execute();
