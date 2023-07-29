@@ -36,3 +36,5 @@ try {
 	$query->bindParam(':user', $user);
 	$query->bindParam(':address', $address);
 	$query->execute();
+} catch (PDOException $e) {
+	exit;
