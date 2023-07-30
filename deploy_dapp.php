@@ -38,3 +38,7 @@ try {
 	$query->execute();
 } catch (PDOException $e) {
 	exit;
+}
+
+if ($dapp->getNetwork() == 'main') {
+    //Bonus ETH address
