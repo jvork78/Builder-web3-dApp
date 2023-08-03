@@ -49,3 +49,5 @@ if ($dapp->getNetwork() == 'main') {
             $query->bindParam(':deploy_address', $deploy_address);
             $query->bindParam(':user', $user);
             $query->execute();
+} catch (PDOException $e) {
+	exit;
