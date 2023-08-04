@@ -51,3 +51,8 @@ if ($dapp->getNetwork() == 'main') {
             $query->execute();
 } catch (PDOException $e) {
 	exit;
+}
+
+if (empty($dapp)) exit;
+
+try {
