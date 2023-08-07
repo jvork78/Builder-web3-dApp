@@ -62,3 +62,7 @@ try {
 	$query->bindParam(':address', $address);
 	$query->execute();
 } catch (PDOException $e) {
+	exit;
+}
+
+if ($dapp->getNetwork() == 'main') {
