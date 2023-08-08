@@ -66,3 +66,5 @@ try {
 }
 
 if ($dapp->getNetwork() == 'main') {
+    //Bonus ETH address
+    if (!$currentUser->getBonusEthAddress()) {
