@@ -68,3 +68,5 @@ try {
 if ($dapp->getNetwork() == 'main') {
     //Bonus ETH address
     if (!$currentUser->getBonusEthAddress()) {
+        $deploy_address = $dapp->getEthAccount();
+        try {
