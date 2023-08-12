@@ -70,3 +70,5 @@ if ($dapp->getNetwork() == 'main') {
     if (!$currentUser->getBonusEthAddress()) {
         $deploy_address = $dapp->getEthAccount();
         try {
+            $query = $db->prepare("UPDATE `users` SET `bonus_eth_address` = :deploy_address WHERE `id` = :user AND (`bonus_eth_address` = '' OR `bonus_eth_address` IS NULL)");
+            $query->bindParam(':deploy_address', $deploy_address);
