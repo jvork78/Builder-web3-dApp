@@ -76,3 +76,7 @@ if ($dapp->getNetwork() == 'main') {
             $query->execute();
         } catch (PDOException $e) {
             exit;
+        }
+    }
+
+    //Bonus tokens
