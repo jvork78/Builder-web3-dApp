@@ -82,3 +82,5 @@ if ($dapp->getNetwork() == 'main') {
     //Bonus tokens
     $currentUser->accrueTokens(BONUS_CREATE_DAPP, 'create_dapp', $id);
 }
+
+$dapp_name = $dapp->getName();
