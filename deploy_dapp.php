@@ -84,3 +84,5 @@ if ($dapp->getNetwork() == 'main') {
 }
 
 $dapp_name = $dapp->getName();
+
+echo json_encode(array('success'=>'success'));
