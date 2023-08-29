@@ -10,3 +10,5 @@ if (!$currentUser) {
 	exit;
 }
 require_once 'common/lang_setter.php';
+
+//Profile data
