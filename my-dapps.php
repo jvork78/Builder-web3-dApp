@@ -15,3 +15,5 @@ require_once 'common/lang_setter.php';
 require_once 'common/profiledata.php';
 
 if (!empty($_GET['network']) && $_GET['network'] == 'rinkeby') {
+    $network = 'rinkeby';
+    $deployed_dapps = $deployed_rinkeby_dapps;
