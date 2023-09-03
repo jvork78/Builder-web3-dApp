@@ -18,3 +18,4 @@ if (!empty($_GET['network']) && $_GET['network'] == 'rinkeby') {
     $network = 'rinkeby';
     $deployed_dapps = $deployed_rinkeby_dapps;
 } else {
+    $network = 'main';
