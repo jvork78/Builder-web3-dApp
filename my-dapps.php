@@ -21,3 +21,7 @@ if (!empty($_GET['network']) && $_GET['network'] == 'rinkeby') {
     $network = 'main';
     $deployed_dapps = $deployed_main_dapps;
 }
+
+if (!$deployed_dapps) {
+	header('Location: /builder/new-dapp.php');
+	exit;
