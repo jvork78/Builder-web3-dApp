@@ -25,3 +25,6 @@ if (!empty($_GET['network']) && $_GET['network'] == 'rinkeby') {
 if (!$deployed_dapps) {
 	header('Location: /builder/new-dapp.php');
 	exit;
+}
+
+require_once('common/header.php');
