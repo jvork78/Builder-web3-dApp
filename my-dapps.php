@@ -28,3 +28,5 @@ if (!$deployed_dapps) {
 }
 
 require_once('common/header.php');
+?>
+<div id="page-wrapper">
