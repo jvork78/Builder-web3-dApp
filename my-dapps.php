@@ -32,3 +32,7 @@ require_once('common/header.php');
 <div id="page-wrapper">
 
 	<div id="hackathon-container" class="container-fluid page-content">
+
+		<section class="cont-page"> 
+            <div class="container-fluid">
+                <div class="row">
