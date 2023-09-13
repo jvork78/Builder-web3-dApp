@@ -36,3 +36,5 @@ require_once('common/header.php');
 		<section class="cont-page"> 
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col-md-12">
+                    	<div class="title">
