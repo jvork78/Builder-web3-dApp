@@ -38,3 +38,6 @@ require_once('common/header.php');
                 <div class="row">
                     <div class="col-md-12">
                     	<div class="title">
+                        	<h1>dApp Builder <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 15px;"></i> <?php echo $_mydapps['my_dapps']; ?></h1>
+                    	</div>
+                    </div>
