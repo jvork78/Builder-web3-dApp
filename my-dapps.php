@@ -43,3 +43,7 @@ require_once('common/header.php');
                     </div>
                 </div>	
             </div>
+		</section>
+		<!--________________________________________________-->
+
+		<div class="conteiner">
