@@ -49,3 +49,5 @@ require_once('common/header.php');
 		<div class="conteiner">
 			<div class="row">
 				<!--_______________________________________________________-->
+				<div class="col-md-5 col-md-offset-1">
+					<div class="dapp-descr"> 
