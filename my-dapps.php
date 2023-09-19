@@ -51,3 +51,4 @@ require_once('common/header.php');
 				<!--_______________________________________________________-->
 				<div class="col-md-5 col-md-offset-1">
 					<div class="dapp-descr"> 
+						<div class="list-dapp-my list-group text-center" id="dapps-list">
