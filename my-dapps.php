@@ -55,3 +55,9 @@ require_once('common/header.php');
 							<div class="my-title">
 								<h4><?php echo $_mydapps['my_dapps']; ?>:</h4>
 							</div>
+							</div>
+
+                            <?php $first = true; foreach ($deployed_dapps as $dapp) { ?>
+                                <a data-id="<?php echo $dapp->getId(); ?>" class="list-group-item <?php echo ($first) ? 'active' : 'inactive'; ?>"> <i class="fa fa-check-square hidden-xs" aria-hidden="true"></i> 
+                                   <?php echo $dapp->getName(); ?>
+                                </a>
