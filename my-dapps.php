@@ -61,3 +61,5 @@ require_once('common/header.php');
                                 <a data-id="<?php echo $dapp->getId(); ?>" class="list-group-item <?php echo ($first) ? 'active' : 'inactive'; ?>"> <i class="fa fa-check-square hidden-xs" aria-hidden="true"></i> 
                                    <?php echo $dapp->getName(); ?>
                                 </a>
+                            <?php $first = false; } ?>
+						</div>
