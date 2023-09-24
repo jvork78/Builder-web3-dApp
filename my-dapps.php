@@ -63,3 +63,5 @@ require_once('common/header.php');
                                 </a>
                             <?php $first = false; } ?>
 						</div>
+                        <div class="text-center"><button id="add-widget" type="button" class="btn btn-add"><?php echo $_mydapps['add_selected_dApp']; ?></button>
+                        </div>
