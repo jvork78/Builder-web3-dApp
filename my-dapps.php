@@ -65,3 +65,5 @@ require_once('common/header.php');
 						</div>
                         <div class="text-center"><button id="add-widget" type="button" class="btn btn-add"><?php echo $_mydapps['add_selected_dApp']; ?></button>
                         </div>
+						<div class="text-center"><a class="btn btn-customize" id="customize-template" style="cursor:pointer;"><i class="fa fa-pencil-square-o hidden-xs" aria-hidden="true"></i> <?php echo $_mydapps['customize_dApps']; ?></a>
+						</div>	
