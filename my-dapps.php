@@ -67,3 +67,5 @@ require_once('common/header.php');
                         </div>
 						<div class="text-center"><a class="btn btn-customize" id="customize-template" style="cursor:pointer;"><i class="fa fa-pencil-square-o hidden-xs" aria-hidden="true"></i> <?php echo $_mydapps['customize_dApps']; ?></a>
 						</div>	
+					<div class="desktoplink text-center">
+                            <h4><?php echo $_mydapps['desktop_link']; ?></h4>
