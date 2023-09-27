@@ -69,3 +69,6 @@ require_once('common/header.php');
 						</div>	
 					<div class="desktoplink text-center">
                             <h4><?php echo $_mydapps['desktop_link']; ?></h4>
+							<div class="input-group">
+                                <input id="dapp-link" readonly type="text" class="form-control" aria-describedby="dapp-link-label" >
+                                <span class="input-group-btn">
