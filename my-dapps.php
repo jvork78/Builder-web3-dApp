@@ -72,3 +72,5 @@ require_once('common/header.php');
 							<div class="input-group">
                                 <input id="dapp-link" readonly type="text" class="form-control" aria-describedby="dapp-link-label" >
                                 <span class="input-group-btn">
+									<button id="dapp-link-copy" class="btn btn-primary" type="button"><?php echo $_mydapps['copy']; ?></button>
+                                </span>
