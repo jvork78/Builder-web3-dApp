@@ -74,3 +74,5 @@ require_once('common/header.php');
                                 <span class="input-group-btn">
 									<button id="dapp-link-copy" class="btn btn-primary" type="button"><?php echo $_mydapps['copy']; ?></button>
                                 </span>
+							</div>
+							<h4 style="margin-top: 15px;"><?php echo $_mydapps['share_soc']; ?></h4>
