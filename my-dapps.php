@@ -76,3 +76,6 @@ require_once('common/header.php');
                                 </span>
 							</div>
 							<h4 style="margin-top: 15px;"><?php echo $_mydapps['share_soc']; ?></h4>
+							<div class="share42init" data-url="" data-icons-file="icons.png" data-path="/builder/assets/share42/" data-image="https://dappbuilder.io/builder/assets/images/dappimg.png"
+							> 
+							</div>
