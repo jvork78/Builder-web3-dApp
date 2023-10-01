@@ -79,3 +79,5 @@ require_once('common/header.php');
 							<div class="share42init" data-url="" data-icons-file="icons.png" data-path="/builder/assets/share42/" data-image="https://dappbuilder.io/builder/assets/images/dappimg.png"
 							> 
 							</div>
+							<script type="text/javascript" src="assets/share42/share42-new.js"></script>
+						</div>
