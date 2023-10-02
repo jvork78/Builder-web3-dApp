@@ -81,3 +81,5 @@ require_once('common/header.php');
 							</div>
 							<script type="text/javascript" src="assets/share42/share42-new.js"></script>
 						</div>
+					</div>
+				</div>
