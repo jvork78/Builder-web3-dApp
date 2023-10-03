@@ -83,3 +83,5 @@ require_once('common/header.php');
 						</div>
 					</div>
 				</div>
+				<!--_______________________________________________________-->
+				<div class="col-md-4 col-md-offset-1">
