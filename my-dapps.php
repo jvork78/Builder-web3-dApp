@@ -85,3 +85,7 @@ require_once('common/header.php');
 				</div>
 				<!--_______________________________________________________-->
 				<div class="col-md-4 col-md-offset-1">
+                    <div class="block-iframe">
+						<iframe id="dapp-iframe" style="width:100%;height:500px;"></iframe>
+                    </div>	
+				</div>
