@@ -93,3 +93,6 @@ require_once('common/header.php');
 			</div>
 		</div>	
 	</div>
+</div>
+
+<?php foreach ($deployed_dapps as $dapp) { $interface = $dapp->getInterface(); ?>
