@@ -98,3 +98,4 @@ require_once('common/header.php');
 <?php foreach ($deployed_dapps as $dapp) { $interface = $dapp->getInterface(); ?>
 <?php if ($dapp->getDappType() == 'voting') { ?>
 	<div id="templateModal<?php echo $dapp->getId(); ?>" class="modal fade" role="dialog" aria-hidden="true">
+		<div class="modal-dialog" role="document">
