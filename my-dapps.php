@@ -100,3 +100,4 @@ require_once('common/header.php');
 	<div id="templateModal<?php echo $dapp->getId(); ?>" class="modal fade" role="dialog" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
+				<div class="modal-header text-center">
