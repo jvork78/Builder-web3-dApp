@@ -105,3 +105,4 @@ require_once('common/header.php');
 					<h2><?php echo $_mydapps['template_settings']; ?></h2>
 				</div>
 				<div class="modal-body">
+					<form method="post" class="template-form">
