@@ -106,3 +106,5 @@ require_once('common/header.php');
 				</div>
 				<div class="modal-body">
 					<form method="post" class="template-form">
+						<div class="one-settings">
+                            <p class="text-center"><?php echo $_mydapps['background_color']; ?></p>
