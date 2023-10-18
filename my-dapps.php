@@ -108,3 +108,4 @@ require_once('common/header.php');
 					<form method="post" class="template-form">
 						<div class="one-settings">
                             <p class="text-center"><?php echo $_mydapps['background_color']; ?></p>
+                            <div class="input-group colorpicker-component colorpicker-input">
