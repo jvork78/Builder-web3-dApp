@@ -112,3 +112,5 @@ require_once('common/header.php');
                             	<input name="background_color" type="text" class="form-control input-lg" value="<?php echo $interface['background_color']; ?>" required>
                             	<span class="input-group-addon"><i></i></span>
                             </div>
+						</div>
+						<div class="one-settings">
