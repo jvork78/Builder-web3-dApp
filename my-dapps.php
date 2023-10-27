@@ -127,3 +127,5 @@ require_once('common/header.php');
                                 <span class="input-group-addon"><i></i></span>
                             </div>
 						</div>
+						<div class="one-settings">
+                            <p class="text-center"><?php echo $_mydapps['links_color']; ?></p>
