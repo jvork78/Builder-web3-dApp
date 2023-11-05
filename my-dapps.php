@@ -143,3 +143,7 @@ require_once('common/header.php');
 						</div>
 						<div class="one-settings">
                             <p class="text-center"><?php echo $_mydapps['pay_btn_color']; ?></p>
+                            <div class="input-group colorpicker-component colorpicker-input">
+                                <input name="ok_buttons_color" type="text" class="form-control input-lg" value="<?php echo $interface['ok_buttons_color']; ?>" required>
+                                <span class="input-group-addon"><i></i></span>
+                            </div>
