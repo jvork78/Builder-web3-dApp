@@ -154,3 +154,5 @@ require_once('common/header.php');
                                 <input name="cancel_buttons_color" type="text" class="form-control input-lg" value="<?php echo $interface['cancel_buttons_color']; ?>" required>
                                 <span class="input-group-addon"><i></i></span>
 							</div>
+						</div>
+						<div class="text-center" style="padding-top:15px;">
