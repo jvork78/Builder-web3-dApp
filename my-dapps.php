@@ -161,3 +161,6 @@ require_once('common/header.php');
 					</form>
 				</div>
 			</div>
+		</div>
+	</div>
+<?php } elseif ($dapp->getDappType() == 'escrow') { ?>
