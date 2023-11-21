@@ -188,3 +188,5 @@ require_once('common/header.php');
                             </div>
 						</div>						
 						<div class="one-settings">
+                            <p class="text-center"><?php echo $_mydapps['headers_color']; ?></p>
+                            <div class="input-group colorpicker-component colorpicker-input">
