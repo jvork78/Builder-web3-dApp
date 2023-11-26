@@ -199,3 +199,6 @@ require_once('common/header.php');
                             <div class="input-group colorpicker-component colorpicker-input">
                                 <input name="links_color" type="text" class="form-control input-lg" value="<?php echo $interface['links_color']; ?>" required>
                                 <span class="input-group-addon"><i></i></span>
+                            </div>
+						</div>
+						<div class="one-settings">
