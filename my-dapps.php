@@ -206,3 +206,6 @@ require_once('common/header.php');
 							<div class="input-group colorpicker-component colorpicker-input">
 								<input name="eth_addresses_color" type="text" class="form-control input-lg" value="<?php echo $interface['eth_addresses_color']; ?>" required>
 								<span class="input-group-addon"><i></i></span>
+								<span class="input-group-addon"><i></i></span>
+							</div>
+						</div>
