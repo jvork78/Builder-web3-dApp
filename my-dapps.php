@@ -209,3 +209,5 @@ require_once('common/header.php');
 								<span class="input-group-addon"><i></i></span>
 							</div>
 						</div>
+						<div class="text-center" style="padding-top:15px;">
+                            <button type="submit" class="btn btn-primary"><?php echo $_mydapps['save']; ?></button>
