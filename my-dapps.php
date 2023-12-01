@@ -211,3 +211,5 @@ require_once('common/header.php');
 						</div>
 						<div class="text-center" style="padding-top:15px;">
                             <button type="submit" class="btn btn-primary"><?php echo $_mydapps['save']; ?></button>
+						</div>
+					</form>
