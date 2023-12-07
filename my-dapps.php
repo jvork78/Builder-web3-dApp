@@ -217,3 +217,4 @@ require_once('common/header.php');
 			</div>
 		</div>
 	</div>
+<?php } elseif ($dapp->getDappType() == 'multisig') { ?>
